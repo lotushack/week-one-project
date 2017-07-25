@@ -1,0 +1,96 @@
+body{
+  font-family: 'Roboto' , sans-serif;
+  color: #131511;
+
+
+}
+
+.site-header{
+  display: flex;
+
+}
+
+#logo{
+  display: flex;
+}
+
+.main-navigation{
+  display: flex;
+
+}
+
+.main-navigation a{
+  display: flex;
+
+
+}
+div.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+h1, h2{
+  margin: 1px;
+
+}
+
+main{
+  background-color: #f2f1e8;
+
+}
+
+main >div .header{
+
+}
+
+article.row1{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article.row2{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.product1{
+  background-image: url(./images/product-1.jpg);
+  color: white;
+}
+
+div.product2{
+  background-image: url(./images/product-2.jpg);
+  color: white;
+}
+
+div.product3{
+  background-image: url(./images/product-3.jpg);
+  color: white;
+}
+
+div.product4{
+  background-image: url(./images/product-4.jpg);
+  color: white;
+}
+
+div.product5{
+  background-image: url(./images/product-5.jpg);
+  color: white;
+}
+
+div.product6{
+  background-image: url(./images/product-6.jpg);
+  color: white;
+}
+
+div.product7{
+  background-image: url(./images/product-7.jpg);
+  color: white;
+}
+
+.site-footer{
+  background: #333;
+  color: white;
+}
