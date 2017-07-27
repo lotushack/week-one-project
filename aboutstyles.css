@@ -1,0 +1,91 @@
+body{
+  font-family: 'Roboto' , sans-serif;
+  color: #131511;
+  margin: 0;
+  line-height: 1.6;
+
+}
+
+.site-header{
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 100%;
+}
+
+#logo img{
+  height: 31px;
+}
+
+.main-navigation{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  background-color: #FFFFFF;
+}
+
+.main-navigation a{
+  display: block;
+  color: #2B2F26;
+  text-transform: uppercase;
+  padding: 12px 30px;
+}
+
+.main-navigation a:hover{
+  color: #CD5D67;
+}
+
+main{
+  background-color: #f2f1e8;
+
+}
+
+img{
+    float: left;
+    width: 160px;
+    height: 130px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.tophead{
+  padding-top: 10px;
+}
+
+.tophead h1{
+  display: flex;
+  justify-content: center;
+}
+
+.tophead p{
+
+}
+
+.aside{
+  padding-left: 10px;
+  border-left: 2px solid #968772;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+div.banner{
+  color: white;
+  background-image: url(./images/background-3.jpg);
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  font-size: -webkit-xxx-large;
+}
+
+div.topcontainer{
+  padding-top: 20px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+div.bottomcontainer{
+  padding-top: 10px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
