@@ -15,6 +15,11 @@ body{
 
 #logo img{
   height: 31px;
+  width: 30px;
+}
+
+a#logo{
+  padding: 5px;
 }
 
 .main-navigation{
@@ -36,6 +41,7 @@ body{
   color: #CD5D67;
 }
 
+
 main{
   background-color: #f2f1e8;
 
@@ -43,10 +49,10 @@ main{
 
 img{
     float: left;
-    width: 160px;
-    height: 130px;
-    margin-left: 20px;
+    height: 70px;
     margin-right: 20px;
+    width: 15%;
+    background-size: cover;
 }
 
 .tophead{
@@ -58,8 +64,8 @@ img{
   justify-content: center;
 }
 
-.tophead p{
-
+.tophead a{
+color: #968772;
 }
 
 .aside{
@@ -69,23 +75,98 @@ img{
   font-style: italic;
 }
 
-div.banner{
+.banner{
   color: white;
   background-image: url(./images/background-3.jpg);
   display: flex;
   justify-content: center;
-  height: 200px;
+  height: 230px;
   font-size: -webkit-xxx-large;
+  background-size: cover;
+}
+.banner p{
+  padding-top: 25px;
 }
 
-div.topcontainer{
+.topcontainer{
   padding-top: 20px;
   padding-left: 200px;
   padding-right: 200px;
 }
 
-div.bottomcontainer{
-  padding-top: 10px;
+.bottomcontainer{
+  padding-top: 20px;
   padding-left: 200px;
   padding-right: 200px;
+}
+
+.facilities{
+  display: flex;
+  flex-direction: row;
+}
+
+.facilities p{
+  display: flex;
+  flex-basis: 600%;
+}
+
+figure{
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 0;
+}
+
+figure img{
+  width: 27%
+}
+
+figcaption{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 55%;
+  width: 35%;
+}
+
+.table{
+  padding-bottom: 30px;
+}
+
+.table table, th, td{
+  table-layout: fixed;
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table th:nth-child(3){
+  width: 150%;
+}
+
+.table th, td{
+  padding: 3px;
+}
+
+.table tr:nth-child(2){
+  background-color: lightpink;
+}
+
+.table tr:nth-child(4){
+  background-color: lightpink;
+}
+
+.main-navigation a:active{
+  color: #968772;
+}
+
+.site-footer{
+  background: #333;
+  color: white;
+  padding-bottom: 11px;
+  padding-top: 17px;
+  padding-left: 24px;
+  width: 100%;
 }

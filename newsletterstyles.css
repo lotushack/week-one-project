@@ -1,0 +1,96 @@
+body{
+  font-family: 'Roboto' , sans-serif;
+  color: #131511;
+  margin: 0;
+  height: 100vh;
+  background-image: url(./images/background-2.jpg);
+  display: flex;
+}
+
+.site-header{
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 100%;
+
+
+}
+
+#logo img{
+  height: 31px;
+
+}
+
+a#logo{
+  padding: 5px;
+}
+
+.main-navigation{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  background-color: #FFFFFF;
+}
+
+.main-navigation a{
+  display: block;
+  color: #2B2F26;
+  text-transform: uppercase;
+  padding: 12px 30px;
+}
+
+.main-navigation a:hover{
+  color: #CD5D67;
+}
+
+.main-navigation a:active{
+  color: #968772;
+}
+
+main{
+  padding: 600px;
+}
+
+#newsletter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 620px;
+  border: 25px solid white;
+  padding: 25px;
+}
+
+
+p{
+  color: grey;
+  border-bottom: 1px solid #968772;
+}
+
+h1, h2{
+  text-align: center;
+}
+
+button{
+  background: #968772;
+  color: white;
+  width: 108px;
+  height: 43px;
+  margin-left: 230px;
+  font-size: large;
+}
+
+.site-footer{
+  background: #333;
+  color: white;
+  padding-bottom: 11px;
+  padding-top: 17px;
+  padding-left: 24px;
+  margin: 17px;
+}
