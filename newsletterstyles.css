@@ -4,7 +4,10 @@ body{
   margin: 0;
   height: 100vh;
   background-image: url(./images/background-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
+  justify-content: center;
 }
 
 .site-header{
@@ -46,10 +49,6 @@ a#logo{
 
 .main-navigation a:active{
   color: #968772;
-}
-
-main{
-  padding: 600px;
 }
 
 #newsletter{

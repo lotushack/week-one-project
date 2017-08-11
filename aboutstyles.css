@@ -106,28 +106,27 @@ color: #968772;
 }
 
 .facilities p{
-  display: flex;
-  flex-basis: 600%;
+  margin: 0;
+  margin-right: 50px;
 }
 
-figure{
+aside{
   display: flex;
   flex-direction: column;
   font-size: small;
-  justify-content: flex-end;
-  align-items: flex-end;
   margin: 0;
 }
 
-figure img{
-  width: 27%
+.img{
+  background-image: url(./images/background-1.jpg);
+  background-size: cover;
+  height: 100px;
+  width: 100px;
 }
 
-figcaption{
+aside p{
   display: flex;
   flex-direction: column;
-  flex-basis: 55%;
-  width: 35%;
 }
 
 .table{
